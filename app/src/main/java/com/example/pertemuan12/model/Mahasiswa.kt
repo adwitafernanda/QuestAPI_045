@@ -9,14 +9,11 @@ import kotlinx.serialization.encoding.*
 @Serializable
 data class Mahasiswa (
     val nim: String,
-
-    @SerialName("Nama")
     val nama: String,
-
     val alamat: String,
 
     @SerialName("jenis_kelamin")
-    val jenisKelamin: String,
+    val jeniskelamin: String,
 
     val kelas: String,
     val angkatan: String
