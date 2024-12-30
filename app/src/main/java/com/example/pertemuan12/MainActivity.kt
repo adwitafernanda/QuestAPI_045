@@ -20,8 +20,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Pertemuan12Theme {
-                Scaffold() { innerPadding ->
-                   MahasiswaApp()
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                   MahasiswaApp(
+                       modifier = Modifier.padding(innerPadding)
+                   )
                 }
             }
         }
