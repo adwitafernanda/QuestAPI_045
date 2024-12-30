@@ -9,6 +9,7 @@ import androidx.lifecycle.viewModelScope
 import coil.network.HttpException
 import com.example.pertemuan12.model.Mahasiswa
 import com.example.pertemuan12.repository.MahasiswaRepository
+import com.example.pertemuan12.ui.view.DestinasiDetail
 import kotlinx.coroutines.launch
 import okio.IOException
 
